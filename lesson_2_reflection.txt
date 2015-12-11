@@ -9,14 +9,22 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	see above.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	
+	In case you want to try some modifications on the project you are working on, e.g. different language, an easier mode, different colours etc, without changing the current "master" branch.
 
 How do the diagrams help you visualize the branch structure?
+	
+	Diagrams help me to visualize the branch structure. They just do. They are Diagrams. Now I can see all the different branches and were I differed from the Master Branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Merging two branches will preserve the changes made in the to different branches (add color, add coins...) while merging both to a commit. A merge is shown in a somewhat specific way as the commit has 	 to parents.	
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Git's automatic merging may cause trouble when to branches are very different and follow completely different ideas of solving a problem. I guess that most cases are however covered by Git's error 		function, where you are forced to work on the merge manually.
