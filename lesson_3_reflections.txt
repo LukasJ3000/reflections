@@ -9,3 +9,16 @@ Why might you want to always pull changes manually rather than having Git automa
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 	Cloning is similar to simply copy and pasting a repository from the server to your local pc. Forking is essentially cloning from someone's server repository to your own (without touching your local 		stuff). Branches don't have to do anything with that and I don't know why they are part of the question. I'm too dumb to answer that :(
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	In case naughty Sarah takes away the cumin from the chili recipe, thus changing the master branch on GitHub, I can still keep on working on/comparing my recipes locally.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Collaborating without GitHub especially for a bigger amount of people would be tough. You would have to save tons of different versions to make sure nothing gets lost/ nobody accidentally destroys all  		the great recipes.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	Always pushing your ideas into the master branch might annoy people, who are currently working on something different and don't want to go over too many merging conflicts.
+	Especially when you're a moron and make retarded suggestions for the chili or cake recipe it would be saver to create a new branch rather than commiting and pushing your bad ideas.
